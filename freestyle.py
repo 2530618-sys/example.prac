@@ -17,4 +17,5 @@ subjects= st.multiselect("배우고 싶은 언어를 선택하세요", ["영어"
 level= st.selectbox("난이도를 선택하세요", ["하", "중", "상"])
 st.write("선택한 난이도:", level)
 
-st.write("학습을 시작합니다!")
+if st.button("시작"):
+    st.write("지금부터 학습을 시작합니다!")
